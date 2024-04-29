@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center;">
+
+    <header>
+        <h1>ROCK, PAPER, SCISSORS</h1>
+    </header>
+  
+    <div class="container">
+        <div class="human-container">
+            <span id="human-score">0</span>
+            <div id="human" class="badge">Human</div>                
+        </div>  
+        <div class="computer-container">
+            <span id="robot-score">0</span>
+            <div id="computer" class="badge">Computer</div>
+        </div>
+    </div>
+        <h1 id="flash-text">Start Game!</h1>
+        
+        <div class="images">    
+            <div class="button-container" style="margin-bottom: 18px;">        
+                <button onclick="playGame('Paper');">
+                    <img src="./img/Paper-removebg-preview.png" alt="">
+                </button>
+                <button onclick="playGame('Scissors');">
+                    <img src="./img/Scissor-removebg-preview.png" alt="">
+                </button>
+                <button onclick="playGame('Rock');">
+                    <img src="./img/Rock-removebg-preview.png" alt="">
+                </button>
+            </div>
+        </div>
+        
+    
+
+
+
+   <!-- <button onclick="playGame('Rock');">Rock</button>
+    <button onclick="playGame('Paper');">Paper</button>
+    <button onclick="playGame('Scissors');">Scissors</button>
+    
+<hr>
+<h1>Score Board</h1>
+<p>Human Score: <span id="human-score">0</span></p>
+<p>Robot Score: <span id="robot-score">0</span></p> --> 
+
+
+
+</body>
+<script src="main.js"></script>
+</html>
